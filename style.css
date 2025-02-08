@@ -1,0 +1,24 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: url('./cocomelon.jpg') no-repeat center center/cover;
+    color: rgb(255, 255, 255);
+    padding: 0; /* Remove extra padding */
+    height: 100%; /* Ensure the body fills the full viewport height */
+    display: flex; /* Use flexbox for vertical centering */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
